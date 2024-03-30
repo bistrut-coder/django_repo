@@ -1,0 +1,13 @@
+body{
+text-align:center;
+background:aqua;
+}
+ul{
+list-style-type: none;
+gap:10;
+}
+li>a{
+gap:10;
+margin:10;
+padding:10;
+}

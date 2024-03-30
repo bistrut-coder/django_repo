@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hybd Jobs</title>
+</head>
+<body>
+<h2>These are the companies in Hyderabad</h2>
+{%for job in hybd_jobs%}
+<h3>This is the info about {{job.company}} company</h3>
+<ul>
+    <li>Company:{{job.company}}</li>
+    <li>Title:{{job.title}}</li>
+    <li>Phone-number:{{job.phonenumber}}</li>
+    <li>Email:{{job.email}}</li>
+    <li>Since:{{job.dob}}</li>
+    <li>Adders:{{job.adders}}</li>
+</ul>
+{%endfor%}
+</body>
+</html>
